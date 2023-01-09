@@ -20,7 +20,8 @@ keywords = {
 }
 key, value = random.choice(list(keywords.items()))
 j = random.choice(range(0, 2))
-print(f"\n The topic of hangman is {key} and {value[j]}")
+print(f"\n The topic of hangman is {key}
+")
 length_key = len(value[j])
 unique = set(value[j])
 
